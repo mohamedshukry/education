@@ -1,0 +1,102 @@
+#container{
+
+	#content{
+		width: 66%;
+		float: left;
+	}
+	#sidebar{
+		 
+	}
+}
+
+
+.firstsecotin{
+		.header{
+			.black{
+				display: none;
+			}
+
+		}
+		.soicial{
+
+				height: 50px;
+				color: #fff;
+				line-height: 1.5;
+				padding: 10px;
+					.icon{
+						color:#fff
+						 }
+					.text1{
+						line-height: 1.5;
+						color: #fff;
+						text-transform: uppercase;
+		       			  }
+				 }
+}
+
+.about{
+	position: relative;
+	.container{
+		background-color: $mancolor;
+		.row{
+			
+			.about-div{
+
+				 
+				.about-span{
+					padding: 10px;
+					padding-top: 10px;
+					color: #fff;
+					i{
+						margin-top: 30px;
+
+					}
+
+				}
+				p{
+						padding-left: 10px;
+						margin-top: 9px
+					}
+				.new-boton{
+				
+				}	
+			}
+		}
+	}
+	
+}
+
+.corus-search{
+	
+	.container{
+		.row{
+			position: relative;
+			input{
+				
+				width:430px;
+				border: 1px solid #eee;
+				line-height: 2.2;
+				position: absolute;
+				left: -30px;
+				margin-top: 30px
+
+			}
+			.form-control{
+				height: 40px;
+				width: 300px;
+				margin-top: 30px;
+				border-radius: 0;
+				border: 1px solid #eee;
+				position: absolute;
+				right: 190px;
+			}
+			.bnt-balck{
+				margin-left: 0px;
+				width: 200px;
+				position: absolute;
+				right: -40px;
+			}
+		
+		}
+	}
+}

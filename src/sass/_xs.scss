@@ -1,0 +1,277 @@
+#container{
+
+	#content{
+		border: 1px solid #eee;
+		background: green;
+		position: relative;
+	}
+	#sidebar{
+		border: 1px solid #333;
+		background: blue;
+	}
+}
+
+/*start header secation*/
+.hidden-md-up{
+	height: 70vh;
+	background: linear-gradient(rgba( 0,0,0,.5   ), rgba(0,0,0,.5)), url("../img/p31.jpeg") fixed center center;
+	background-size: cover;	background-repeat: no-repeat;
+
+}
+.firstsecotin{
+
+
+		.header{
+			
+			width: 100%;
+			z-index: 100;
+			position: absolute;
+			.bg-faded{
+				background-color:  $mancolor;
+				color: #fff;
+
+			}
+			.nav-link{
+					color: #fff;
+					text-transform: uppercase;
+					&:hover{
+						color:#fff;
+					}
+					&:active{
+						color:#fff;
+					}
+					}
+			.dropdown{	
+					color: #fff;	
+					.dropdown-toggle::after{
+								content: none;
+							&:hover{
+								color:$mancolor;
+							}
+							&:active{
+								color:#fff;
+							}	
+							}
+							
+					}
+
+			.black{
+				form{
+					background-color: $mancolor;
+					input{
+						background-color: $mancolor;
+						border: 1px solid #fff;
+						color: #fff;
+						border-radius: 0;
+
+					}
+					/*.placeholder{
+						color: #fff;
+					}*/
+				}
+				i{
+					position: absolute;
+					right: 20px;
+				}
+			}
+			.btn-secondary{
+				background-color: $mancolor;
+				line-height: 1.5;
+			}
+		}
+}
+
+.navbar{
+			background-color: $mancolor;	
+		}
+
+/*thes select	of sliedar	*/
+
+.about{
+	position: relative;
+	.container{
+		background-color: $mancolor;
+		.row{
+			
+			.col-sm-6{
+				color: #fff;
+
+				.about-span{
+					
+					i{
+						margin-top: 30px;
+
+					}
+
+				}
+				p{
+						padding-left: 10px;
+						margin-top: px
+					}
+				.new-boton{
+					width: 150px;
+					background-color: transparent;
+					text-transform: uppercase;
+					line-height: 2.5;
+					border: 1px solid #fff;
+					margin-top:15px;
+					margin-left: 10px;
+					color: #fff;
+					margin-bottom: 10px;
+					&:hover{
+						background-color:#fff;
+						color: $mancolor;
+						cursor:pointer;
+					}
+				}	
+			}
+		}
+	}
+	
+}
+/*search*/
+.corus-search{
+	
+	.container{
+		.row{
+			input{
+				
+				width:300px;
+				border: 1px solid #eee;
+				line-height: 2.5
+			}
+			.form-control{
+				height: 40px;
+				width: 300px;
+				margin-top: 20px;
+				border-radius: 0;
+				border: 1px solid #eee;
+			}
+			.bnt-balck{
+				margin-left: 0px;
+				width: 300px
+			}
+		
+		}
+	}
+}
+
+.Services{
+
+		.Services-centar{
+					padding-top: 10px;
+					text-align: center;
+
+					h2{
+								color: $mancolor;	
+								text-align: center;
+							}
+							span{
+								color: #333333;
+								text-transform: uppercase;
+								
+							}
+							p{
+								color: #6f6f6f;
+								padding-top: 20px;
+								padding-left: 30px;
+								text-align: center;
+								text-align: justify;
+								top: 20px;
+								left: 55px;
+								
+							}
+					.row{
+							padding-bottom: 30px
+							
+							strong{
+								margin-left: 10px;
+							}
+							i{
+								
+								margin-left: -25px;
+								color: $mancolor
+							}
+							p{
+								padding-left: 40px;
+								text-align: justify;
+							}
+						}
+
+				  }
+
+}
+.newslider{
+	height: 800px;
+	width: 1349px;
+	background-color: $thirdcolor;
+	padding: 40px;
+	.card{
+		margin-left: 5px;
+		overflow: hidden;
+	    transition:all .3s ease-in-out;
+		border-bottom: 12px solid #fbdada;
+
+
+		.photo{
+			
+			transition:all .3s ease-in-out;
+			&:hover{
+				transform:scale(1.2,1.2);
+
+				transition-delay: .2s
+			}
+		}
+		
+		.card-block{
+			.center{
+				text-align: center;
+				h4{
+					text-transform: uppercase;
+				}
+				img{
+					border-radius: 50%;
+				}
+				p{
+					margin-top: 10px;
+					font-size: 20px;
+					
+				}				
+			}
+		}
+		&:hover{
+			transform: translateY(-15px);
+		    border-bottom: 12px solid $mancolor;
+
+
+		}
+	}
+}
+.transparent{
+	background: linear-gradient(rgba( 0,0,0,.5   ), rgba(0,0,0,.5)), url("../img/p3.jpeg") fixed center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	color: #fff;
+	padding-top: 60px;
+	text-align: center;
+	h3{
+		font-size: 45px;
+	}
+	p{
+		margin-top: 20px
+	}	
+	.row{
+		padding: 40px;
+		div{
+			padding: 20px;
+			i{
+				color: $mancolor;
+				margin-bottom: 10px;
+				display: block;
+			}
+		}
+	}
+}
+
+
