@@ -25,6 +25,20 @@
 		border: 1px solid $mancolor;
 	}
 }
+.btn-three{
+	width: 250px;
+	background-color:$mancolor;
+	color: #fff;
+	line-height: 2.5;
+	margin: 20px;
+	border: 1px solid $mancolor;
+	text-transform: uppercase;
+	&:hover{
+		background-color: #fff;
+		border: 1px solid #fff;
+		color: $mancolor;
+	}
+}
 h1{
 	text-transform: uppercase;
 	line-height: 2;
@@ -61,7 +75,7 @@ h1{
 	margin-left: 5px;
 }
 .last{
-						border-right: 1px solid #def;
+						border-right: 1px solid #6f6f6f;
 						padding-left: 10px;
 						padding-right: 10px
 

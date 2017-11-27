@@ -12,8 +12,8 @@
 
 .firstsecotin{
 		.header{
-			.black{
-				display: none;
+			.block{
+				
 			}
 
 		}
@@ -97,6 +97,146 @@
 				right: -40px;
 			}
 		
+		}
+	}
+}
+.event{
+	
+	.container{
+		h2{
+
+		}
+		span{
+			
+		}
+		
+		.row{
+			
+			.sub-event{
+			
+
+
+				.date{
+					
+					p{
+						
+					}
+					span{
+						
+					}
+				}
+				.address{
+					font-size: 20px
+					
+				}
+				.text{
+					padding-left: 55px
+				}
+				ul{
+				
+					li{
+						display: inline;
+						padding-left: 3px;
+						
+						i{
+							padding-right: 5px;
+						}
+					}
+				}
+				&:hover{
+				
+					
+				}
+			}
+		}
+	}
+}
+.news{
+	
+	.container{
+		
+			.pragraf{
+				
+			}
+		.row{
+			
+			
+			.black2{
+				
+				.relative{
+					padding-bottom:50px;
+					text-align: center;
+					display: block;
+					width: 550px;
+					margin-left: 250px;
+					.smal{
+						
+						span{
+						
+						}
+					}
+					img{
+						margin: auto;
+						transform: scaleX(1.5);
+						&:hover{
+							
+						}
+					}
+					.pragraf-news{
+						width: 350px;
+						margin-left: -50px;
+						&:hover{
+						
+						}
+					}
+
+			 }	
+			}
+			
+		}
+	}
+}
+
+
+.testimonials{
+		padding-top: 50px;
+		h2{
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		.contant-slider{
+			
+			margin-left: 10px;
+
+
+			.row{
+				padding-top: 10px;
+				h4{
+					
+				}
+			}
+			p{
+				
+			}
+		}
+	
+}
+.subscribbe{
+	
+	h2{
+		
+	}
+	form{
+		.email{
+			width: 600px;
+			
+		}
+		.main-btn{
+			
+			&:hover{
+				
+			}
 		}
 	}
 }

@@ -14,6 +14,24 @@
        			  }
 		 }
 }
+.firstsecotin{
+		.header{
+			.black{
+				display: non;
+			}
+
+		}
+		.soicial{
+
+				
+					.icon{
+						
+						 }
+					.text1{
+						
+		       			  }
+				 }
+}
 
 
 
@@ -102,4 +120,50 @@
 
 				  }
 
+}
+.news{
+	
+	.container{
+		
+			.pragraf{
+				
+			}
+		.row{
+			
+			
+			.black2{
+				
+				.relative{
+					padding-bottom:50px;
+					text-align: center;
+					display: block;
+					width: 300px;
+					margin-left: 50px;
+					.smal{
+						left: 90%;
+						
+						span{
+						
+						}
+					}
+					img{
+						margin: auto;
+						transform: scaleX(1.5);
+						&:hover{
+							
+						}
+					}
+					.pragraf-news{
+						width: 350px;
+						margin-left: -50px;
+						&:hover{
+						
+						}
+					}
+
+			 }	
+			}
+			
+		}
+	}
 }
