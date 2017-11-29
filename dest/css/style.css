@@ -128,6 +128,11 @@ h1 {
   .firstsecotin .header .btn-secondary {
     background-color: #c21522;
     line-height: 1.5; }
+.firstsecotin .navbar-toggleable-md .navbar-nav {
+  margin: auto; }
+  .firstsecotin .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 1.3rem;
+    padding-left: 1rem; }
 
 input-placeholder {
   color: white; }
@@ -146,7 +151,7 @@ input-placeholder {
   .modal .modal-dialog .modal-content .modal-body {
     padding-bottom: 60px; }
     .modal .modal-dialog .modal-content .modal-body div label {
-      width: 100px;
+      width: 150px;
       text-transform: uppercase;
       margin: 30px 5px; }
     .modal .modal-dialog .modal-content .modal-body div input {
@@ -175,8 +180,7 @@ input-placeholder {
       .about .container .row .col-sm-6 .about-span i {
         margin-top: 30px; }
       .about .container .row .col-sm-6 p {
-        padding-left: 10px;
-        margin-top: px; }
+        padding-left: 10px; }
       .about .container .row .col-sm-6 .new-boton {
         width: 150px;
         background-color: transparent;
@@ -235,20 +239,20 @@ input-placeholder {
       text-align: justify; }
 
 .newslider {
-  height: 800px;
+  /*height: 800px;*/
   /*width: 1349px;*/
   background-color: #ededed;
   padding: 40px; }
   .newslider .card {
     margin-left: 5px;
     overflow: hidden;
-    transition: all .3s ease-in-out;
+    transition: all .7s ease-in-out;
     border-bottom: 12px solid #fbdada; }
-    .newslider .card .photo {
-      transition: all .3s ease-in-out; }
-      .newslider .card .photo:hover {
-        transform: scale(1.2, 1.2);
-        transition-delay: 0.2s; }
+    .newslider .card .pohot-card {
+      overflow: hidden; }
+      .newslider .card .pohot-card .photo {
+        transition: 1s;
+        transition: all .7s ease-in-out; }
     .newslider .card .card-block .center {
       text-align: center; }
       .newslider .card .card-block .center h4 {
@@ -261,6 +265,8 @@ input-placeholder {
     .newslider .card:hover {
       transform: translateY(-15px);
       border-bottom: 12px solid #c21522; }
+      .newslider .card:hover .photo {
+        transform: scale(1.1, 1.1); }
 
 .transparent {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/p3.jpeg") fixed center center;
@@ -287,11 +293,13 @@ input-placeholder {
   padding-top: 100px; }
   .event .container h2 {
     text-align: center; }
-  .event .container span {
-    text-align: center;
-    margin: auto; }
+    .event .container h2 span {
+      display: block;
+      font-size: 20px;
+      margin-top: 10px; }
   .event .container .row {
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-left: 10px; }
     .event .container .row .sub-event {
       margin-top: 10px;
       background-color: #f6f6f6;
@@ -303,7 +311,7 @@ input-placeholder {
         border-right: 1px solid #fbdada;
         padding: 0 10px; }
         .event .container .row .sub-event .date p {
-          font-size: 35px; }
+          font-size: 20px; }
         .event .container .row .sub-event .date span {
           display: block;
           font-size: 15px;
@@ -311,7 +319,7 @@ input-placeholder {
       .event .container .row .sub-event .address {
         margin: auto;
         text-transform: uppercase;
-        font-size: 23px;
+        font-size: 20px;
         color: #c21522; }
       .event .container .row .sub-event .text {
         padding-left: 80px;
@@ -335,59 +343,49 @@ input-placeholder {
   background-color: black;
   padding-top: 100px;
   color: #fff;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-size: 25px; }
   .black .container {
     text-align: center; }
 
 .news {
-  padding-top: 100px;
-  background-color: #f6f6f6;
-  height: 100%;
-  width: 100%; }
-  .news .container .pragraf {
-    text-align: center;
-    width: 100%; }
-  .news .container .row {
-    padding-top: 30px;
-    justify-content: space-between;
-    background-color: #f6f6f6;
-    text-align: center; }
-    .news .container .row .black2 {
-      display: block;
-      margin: auto; }
-      .news .container .row .black2 .relative {
-        padding-bottom: 50px;
+  padding-top: 100px; }
+  .news .container .row .news-card {
+    position: relative;
+    transition: all .7 ease-in-out;
+    margin-bottom: 35px; }
+    .news .container .row .news-card .smal {
+      background-color: #c21522;
+      width: 40px;
+      padding: 10px;
+      font-size: 20px;
+      color: white;
+      position: absolute;
+      top: -30px;
+      left: 45%;
+      z-index: 7; }
+      .news .container .row .news-card .smal span {
         display: block;
-        /*margin-bottom: 300px; */
-        width: 350px; }
-        .news .container .row .black2 .relative .smal {
-          background-color: #c21522;
-          width: 40px;
-          font-size: 35px;
-          color: #fff;
-          position: absolute;
-          left: 45%;
-          top: -30px;
-          z-index: 200; }
-          .news .container .row .black2 .relative .smal span {
-            font-size: 15px;
-            display: block;
-            margin-top: -10px;
-            text-transform: uppercase; }
-        .news .container .row .black2 .relative img {
-          transform: scaleX(1.5); }
-          .news .container .row .black2 .relative img:hover {
-            opacity: .5; }
-        .news .container .row .black2 .relative .pragraf-news {
-          background-color: #fff;
-          font-size: 20px;
-          width: 340px;
-          /*position: absolute;*/
-          right: 3px;
-          padding: 10px; }
-          .news .container .row .black2 .relative .pragraf-news:hover {
-            background-color: #c21522;
-            color: white; }
+        font-size: 13px;
+        text-transform: uppercase; }
+    .news .container .row .news-card .news-text {
+      background-color: #f6f6f6;
+      transform: scaleX(0.9);
+      transition: all .7 ease-in-out; }
+    .news .container .row .news-card .text {
+      padding: 40px;
+      margin: auto; }
+      .news .container .row .news-card .text h6 {
+        color: #c21522;
+        text-align: center; }
+    .news .container .row .news-card:hover img {
+      opacity: 0.5; }
+    .news .container .row .news-card:hover .news-text .text {
+      background-color: #c21522; }
+      .news .container .row .news-card:hover .news-text .text h6 {
+        color: white; }
+      .news .container .row .news-card:hover .news-text .text p {
+        color: #f6f6f6; }
 
 .testimonials {
   padding-top: 100px; }
@@ -404,22 +402,24 @@ input-placeholder {
       padding-top: 10px; }
       .testimonials .row .contant-slider .row h4 {
         margin: auto;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #c21522; }
     .testimonials .row .contant-slider p {
       padding-left: 100px;
       padding-right: 20px;
       color: #6f6f6f; }
   .testimonials .row .more .more-text {
     background-color: #f6f6f6;
-    height: 50px;
-    line-height: 50px;
+    /*height: 50px;*/
+    line-height: 30px;
     padding-left: 20px;
     margin-bottom: 10px; }
     .testimonials .row .more .more-text i {
       transform: rotate(-90deg); }
     .testimonials .row .more .more-text span {
       margin-left: 20px; }
-    .testimonials .row .more .more-text P {
+    .testimonials .row .more .more-text .text {
       line-height: 1.5;
       display: none; }
 
@@ -431,7 +431,7 @@ input-placeholder {
   .subscribbe h2 {
     margin-bottom: 20px; }
   .subscribbe form .email {
-    width: 300px;
+    width: 270px;
     margin-bottom: 10px;
     height: 50px;
     padding-left: 20px; }
@@ -453,7 +453,7 @@ footer {
     display: block; }
     footer .row .first a:hover {
       text-decoration: none; }
-    footer .row .first a i {
+    footer .row .first a .fa-caret-right {
       padding-right: 10px; }
   footer .row .first ul {
     margin-top: 20px;
@@ -478,7 +478,7 @@ footer {
   footer .row .second h4 {
     margin-bottom: 60px; }
   footer .row .second div {
-    width: 300px;
+    width: 270px;
     height: 70px;
     border: 1px solid #212121;
     position: relative;
@@ -612,19 +612,7 @@ footer {
       margin-top: 50px; }
 
   .event .container .row .sub-event .address {
-    margin-left: auto; }
-
-  .news .container .row .black2 {
-    margin: auto; }
-    .news .container .row .black2 .relative {
-      width: 550px; }
-      .news .container .row .black2 .relative img {
-        transform: scaleX(1.7); }
-        .news .container .row .black2 .relative img:hover {
-          opacity: .5; }
-      .news .container .row .black2 .relative .pragraf-news {
-        width: 390px;
-        margin: auto; } }
+    margin-left: auto; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #container #content {
@@ -689,19 +677,6 @@ footer {
     padding-left: 3px; }
     .event .container .row .sub-event ul li i {
       padding-right: 5px; }
-
-  .news .container .row .black2 .relative {
-    padding-bottom: 50px;
-    text-align: center;
-    display: block;
-    width: 550px;
-    margin-left: 250px; }
-    .news .container .row .black2 .relative img {
-      margin: auto;
-      transform: scaleX(1.5); }
-    .news .container .row .black2 .relative .pragraf-news {
-      width: 350px;
-      margin-left: -50px; }
 
   .testimonials {
     padding-top: 50px; }
@@ -769,21 +744,6 @@ footer {
       .Services .Services-centar .row strong {
         margin-left: 35px; }
       .Services .Services-centar .row i {
-        margin-left: -70px; }
-
-  .news .container .row .black2 .relative {
-    padding-bottom: 50px;
-    text-align: center;
-    display: block;
-    width: 300px;
-    margin-left: 50px; }
-    .news .container .row .black2 .relative .smal {
-      left: 90%; }
-    .news .container .row .black2 .relative img {
-      margin: auto;
-      transform: scaleX(1.5); }
-    .news .container .row .black2 .relative .pragraf-news {
-      width: 350px;
-      margin-left: -50px; } }
+        margin-left: -70px; } }
 
 /*# sourceMappingURL=style.css.map */
