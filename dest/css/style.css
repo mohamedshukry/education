@@ -5,7 +5,8 @@
   line-height: 2.5;
   margin: 20px;
   border: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 2s ease-in-out; }
   .main-btn:hover {
     background-color: transparent;
     border: 1px solid #c21522; }
@@ -17,7 +18,8 @@
   line-height: 2.5;
   margin: 20px;
   border: 1px solid #c21522;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 2s ease-in-out; }
   .scand-btn:hover {
     background-color: #c21522;
     border: 1px solid #c21522; }
@@ -29,7 +31,8 @@
   line-height: 2.5;
   margin: 20px;
   border: 1px solid #c21522;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 2s ease-in-out; }
   .btn-three:hover {
     background-color: #fff;
     border: 1px solid #fff;
@@ -55,7 +58,8 @@ h1 {
   line-height: 2.5;
   margin: 20px;
   border: 1px solid #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all .2s ease-in-out; }
   .bnt-balck:hover {
     background-color: black;
     border: 1px solid #fff;
@@ -352,7 +356,8 @@ input-placeholder {
   padding-top: 100px; }
   .news .container .row .news-card {
     position: relative;
-    transition: all .7 ease-in-out;
+    transition: all 2s ease-in-out;
+    transform-origin: 50% 0;
     margin-bottom: 35px; }
     .news .container .row .news-card .smal {
       background-color: #c21522;
@@ -368,13 +373,16 @@ input-placeholder {
         display: block;
         font-size: 13px;
         text-transform: uppercase; }
+    .news .container .row .news-card .img {
+      transition: all 1s ease-in-out; }
     .news .container .row .news-card .news-text {
       background-color: #f6f6f6;
       transform: scaleX(0.9);
-      transition: all .7 ease-in-out; }
+      transition: all 2s ease-in-out; }
     .news .container .row .news-card .text {
       padding: 40px;
-      margin: auto; }
+      margin: auto;
+      transition: all .7s ease-in-out; }
       .news .container .row .news-card .text h6 {
         color: #c21522;
         text-align: center; }
@@ -474,7 +482,7 @@ footer {
           background-color: #c21522;
           transform: rotate(360deg); }
         footer .row .first ul li a i {
-          margin-left: 10px; }
+          text-align: center; }
   footer .row .second h4 {
     margin-bottom: 60px; }
   footer .row .second div {
@@ -619,6 +627,9 @@ footer {
     width: 66%;
     float: left; }
 
+  .nav-item {
+    padding-left: 0px; }
+
   .firstsecotin .soicial {
     height: 50px;
     color: #fff;
@@ -630,6 +641,52 @@ footer {
       line-height: 1.5;
       color: #fff;
       text-transform: uppercase; }
+
+  .firstsecotin .header {
+    width: 100%;
+    z-index: 100;
+    position: absolute; }
+    .firstsecotin .header .bg-faded {
+      background-color: #c21522;
+      color: #fff; }
+    .firstsecotin .header .nav-link {
+      color: #fff;
+      text-transform: uppercase; }
+      .firstsecotin .header .nav-link:hover {
+        color: #fff; }
+      .firstsecotin .header .nav-link:active {
+        color: #fff; }
+    .firstsecotin .header .dropdown {
+      color: #fff; }
+      .firstsecotin .header .dropdown .dropdown-toggle::after {
+        content: none; }
+        .firstsecotin .header .dropdown .dropdown-toggle::after:hover {
+          color: #c21522; }
+        .firstsecotin .header .dropdown .dropdown-toggle::after:active {
+          color: #fff; }
+    .firstsecotin .header .block {
+      display: none; }
+      .firstsecotin .header .block form {
+        background-color: #c21522;
+        /*.placeholder{
+        	color: #fff;
+        }*/ }
+        .firstsecotin .header .block form input {
+          background-color: #c21522;
+          border: 1px solid #fff;
+          color: #fff;
+          border-radius: 0; }
+      .firstsecotin .header .block i {
+        position: absolute;
+        right: 20px; }
+    .firstsecotin .header .btn-secondary {
+      background-color: #c21522;
+      line-height: 1.5; }
+  .firstsecotin .navbar-toggleable-md .navbar-nav {
+    margin: auto; }
+    .firstsecotin .navbar-toggleable-md .navbar-nav .nav-link {
+      padding-right: 1.3rem;
+      padding-left: 1rem; }
 
   .about {
     position: relative; }
