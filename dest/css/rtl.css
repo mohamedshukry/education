@@ -5,7 +5,8 @@
   line-height: 2.5;
   margin: 20px;
   border: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 2s ease-in-out; }
   .main-btn:hover {
     background-color: transparent;
     border: 1px solid #c21522; }
@@ -17,7 +18,8 @@
   line-height: 2.5;
   margin: 20px;
   border: 1px solid #c21522;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 2s ease-in-out; }
   .scand-btn:hover {
     background-color: #c21522;
     border: 1px solid #c21522; }
@@ -29,7 +31,8 @@
   line-height: 2.5;
   margin: 20px;
   border: 1px solid #c21522;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 2s ease-in-out; }
   .btn-three:hover {
     background-color: #fff;
     border: 1px solid #fff;
@@ -55,7 +58,8 @@ h1 {
   line-height: 2.5;
   margin: 20px;
   border: 1px solid #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all .2s ease-in-out; }
   .bnt-balck:hover {
     background-color: black;
     border: 1px solid #fff;

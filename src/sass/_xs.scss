@@ -11,6 +11,7 @@
 	}
 }
 
+
 /*start header secation*/
 .hidden-md-up{
 	height: 70vh;
@@ -100,12 +101,15 @@ input-placeholder{
 
 		/*start model*/
 		.modal{
+			opacity: .2;
+			
 			.modal-dialog{
 				.modal-content{
 					background-color:#fff;
 					.modal-header{
 						background-color: $mancolor;
 						color: white;
+
 						button{
 							color: white;
 						}
@@ -123,6 +127,7 @@ input-placeholder{
 								line-height: 2;
 								width: 90%;
 								margin: auto;
+
 								&:focus{
 									border:1px solid $mancolor;
 									outline: none;
@@ -444,7 +449,8 @@ input-placeholder{
 
 			.news-card{
 				position: relative;
-				transition: all .7 ease-in-out;
+				transition: all 2s ease-in-out;
+				transform-origin:50% 0;
 				margin-bottom: 35px;
 				.smal{
 					background-color: $mancolor;
@@ -462,14 +468,18 @@ input-placeholder{
 						text-transform: uppercase;
 					}
 				}
+				.img{
+					transition: all 1s ease-in-out;
+				}
 				.news-text{
 					background-color: #f6f6f6;
 					transform: scaleX(.9);
-					transition: all .7 ease-in-out;
+					transition: all 2s ease-in-out;
 				}
 				.text{
 					padding: 40px;
 					margin: auto;
+					transition: all .7s ease-in-out;
 					h6{
 						color: $mancolor;
 						text-align: center;
@@ -629,7 +639,7 @@ footer{
 								transform: rotate(360deg);
 							}
 							i{
-								margin-left: 10px;
+								text-align: center;
 							}
 						}
 					}

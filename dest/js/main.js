@@ -22,10 +22,17 @@ $('.slider, .carousel-item').height(winH - ( topBar + navH ));
 
 
 
+// $(document).ready(function(){
+//     $('[data-toggle="tooltip"]').tooltip();   
+// });
 
+$(document).ready(function(){
+        $('#exampleModalLong1').modal('show');
+    });
 
-
-
+// $(document).ready(function(){
+//   $("p").hide(1111);
+// });
 
 
 
